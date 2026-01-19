@@ -18,11 +18,20 @@ export const metadata: Metadata = {
     'product roadmap',
     'feature scoring',
   ],
+  metadataBase: new URL('https://prioritize.tools.startvest.ai'),
+  alternates: {
+    types: {
+      'text/markdown': '/.md',
+    },
+  },
+  other: {
+    'ai-content-declaration': 'This page is available in markdown format at /.md',
+  },
   openGraph: {
     title: 'Feature Prioritization Matrix - RICE Score Calculator',
     description: 'Prioritize features using RICE scoring. Find quick wins and big bets instantly.',
     type: 'website',
-    url: 'https://prioritize.startvest.ai',
+    url: 'https://prioritize.tools.startvest.ai',
   },
 };
 

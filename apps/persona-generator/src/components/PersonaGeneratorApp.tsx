@@ -139,7 +139,7 @@ function generateMarkdown(persona: Persona): string {
   md += `- Spontaneous ←→ Planned: ${persona.personality.spontaneous}% spontaneous\n`;
   md += `- Traditional ←→ Innovative: ${persona.personality.traditional}% traditional\n\n`;
 
-  md += `---\n\n_Generated with [User Persona Generator](https://persona.startvest.ai)_\n`;
+  md += `---\n\n_Generated with [User Persona Generator](https://persona.tools.startvest.ai)_\n`;
   return md;
 }
 
@@ -591,8 +591,13 @@ export default function PersonaGeneratorApp() {
           </a>
         </div>
 
-        <div className="mt-8 text-center text-slate-500 text-sm no-print">
+        <div className="mt-8 text-center text-slate-500 text-sm no-print space-y-2">
           <p>Built by <a href="https://startvest.ai" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">Startvest</a> | Free to use, no sign-up required</p>
+          <p>
+            <a href="/llms.txt" className="text-slate-600 hover:text-slate-400">
+              AI-readable version
+            </a>
+          </p>
         </div>
       </div>
     </div>

@@ -230,13 +230,18 @@ export default function LaunchChecklistApp() {
           </div>
 
           {/* Footer */}
-          <div className="mt-12 text-center text-slate-500 text-sm">
+          <div className="mt-12 text-center text-slate-500 text-sm space-y-2">
             <p>
               Built by{' '}
               <a href="https://startvest.ai" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
                 StartVest
               </a>
               {' '}&mdash; free tools for product teams
+            </p>
+            <p>
+              <a href="/llms.txt" className="text-slate-600 hover:text-slate-400">
+                AI-readable version
+              </a>
             </p>
           </div>
         </div>
@@ -444,13 +449,18 @@ export default function LaunchChecklistApp() {
         </div>
 
         {/* Footer */}
-        <div className="mt-8 text-center text-slate-500 text-sm no-print">
+        <div className="mt-8 text-center text-slate-500 text-sm no-print space-y-2">
           <p>
             Built by{' '}
             <a href="https://startvest.ai" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
               StartVest
             </a>
             {' '}&mdash; free tools for product teams
+          </p>
+          <p>
+            <a href="/llms.txt" className="text-slate-600 hover:text-slate-400">
+              AI-readable version
+            </a>
           </p>
         </div>
       </div>

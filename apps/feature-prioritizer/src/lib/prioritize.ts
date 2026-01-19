@@ -68,7 +68,7 @@ export function exportToMarkdown(features: Feature[]): string {
   });
 
   md += '\n---\n';
-  md += '*Generated with [Feature Prioritizer](https://prioritize.startvest.ai) by Startvest*\n';
+  md += '*Generated with [Feature Prioritizer](https://prioritize.tools.startvest.ai) by Startvest*\n';
 
   return md;
 }

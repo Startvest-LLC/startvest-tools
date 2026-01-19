@@ -10,6 +10,15 @@ export const metadata: Metadata = {
   title: 'Free PRD Template & Generator - Create Product Requirements Documents',
   description: 'Instantly generate a Product Requirements Document you can share with engineers, designers, and stakeholders. Free PRD template with export to Markdown or HTML.',
   keywords: 'PRD template,PRD generator,product requirements document,PRD example,functional requirements,success metrics PRD,product management,feature specification',
+  metadataBase: new URL('https://prd.tools.startvest.ai'),
+  alternates: {
+    types: {
+      'text/markdown': '/.md',
+    },
+  },
+  other: {
+    'ai-content-declaration': 'This page is available in markdown format at /.md',
+  },
   openGraph: {
     title: 'Free PRD Template & Generator',
     description: 'Instantly generate a Product Requirements Document you can share with engineers, designers, and stakeholders.',

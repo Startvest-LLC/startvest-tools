@@ -84,7 +84,7 @@ function generateMarkdown(items: RoadmapItem[], lanes: Lane[], year: number): st
     });
   });
 
-  md += `---\n\n_Generated with [Roadmap Planner](https://roadmap.startvest.ai)_\n`;
+  md += `---\n\n_Generated with [Roadmap Planner](https://roadmap.tools.startvest.ai)_\n`;
   return md;
 }
 
@@ -386,13 +386,18 @@ export default function RoadmapPlannerApp() {
         </div>
 
         {/* Footer */}
-        <div className="mt-8 text-center text-slate-500 text-sm">
+        <div className="mt-8 text-center text-slate-500 text-sm space-y-2">
           <p>
             Built by{' '}
             <a href="https://startvest.ai" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
               Startvest
             </a>
             {' '}| Free to use, no sign-up required
+          </p>
+          <p>
+            <a href="/llms.txt" className="text-slate-600 hover:text-slate-400">
+              AI-readable version
+            </a>
           </p>
         </div>
       </div>

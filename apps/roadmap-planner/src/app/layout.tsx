@@ -9,10 +9,19 @@ export const metadata: Metadata = {
   title: 'Roadmap Planner - Visual Product Roadmap Builder',
   description: 'Create beautiful product roadmaps in minutes. Plan features, organize by quarters, and export to share with your team.',
   keywords: 'roadmap,product roadmap,roadmap planner,product planning,feature roadmap,release planning',
+  metadataBase: new URL('https://roadmap.tools.startvest.ai'),
+  alternates: {
+    types: {
+      'text/markdown': '/.md',
+    },
+  },
+  other: {
+    'ai-content-declaration': 'This page is available in markdown format at /.md',
+  },
   openGraph: {
     title: 'Roadmap Planner - Visual Product Roadmap Builder',
     description: 'Create beautiful product roadmaps in minutes. Export to PNG or Markdown.',
-    url: 'https://roadmap.startvest.ai',
+    url: 'https://roadmap.tools.startvest.ai',
     type: 'website',
   },
   twitter: {

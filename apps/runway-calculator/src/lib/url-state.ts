@@ -49,6 +49,6 @@ export function generateShareableUrl(state: RunwayState): string {
   const encoded = encodeRunwayState(state);
   const baseUrl = typeof window !== 'undefined'
     ? window.location.origin
-    : 'https://runway.startvest.ai';
+    : 'https://runway.tools.startvest.ai';
   return `${baseUrl}?s=${encoded}`;
 }

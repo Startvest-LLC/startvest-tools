@@ -9,10 +9,19 @@ export const metadata: Metadata = {
   title: 'User Persona Generator - Create Detailed User Personas',
   description: 'Build detailed user personas for your product. Define demographics, goals, pain points, and behaviors. Export to Markdown or print.',
   keywords: 'user persona,persona generator,user research,product design,UX research,customer persona',
+  metadataBase: new URL('https://persona.tools.startvest.ai'),
+  alternates: {
+    types: {
+      'text/markdown': '/.md',
+    },
+  },
+  other: {
+    'ai-content-declaration': 'This page is available in markdown format at /.md',
+  },
   openGraph: {
     title: 'User Persona Generator - Create Detailed User Personas',
     description: 'Build detailed user personas in minutes. Export to Markdown or print.',
-    url: 'https://persona.startvest.ai',
+    url: 'https://persona.tools.startvest.ai',
     type: 'website',
   },
 };

@@ -10,11 +10,19 @@ export const metadata: Metadata = {
   title: 'Product Launch Checklist - Free Launch Planning Tool',
   description: 'Comprehensive launch checklists for SaaS, mobile apps, open source projects, and marketplaces. Track your progress and never miss a critical launch task.',
   keywords: 'product launch checklist,saas launch,startup launch,product launch planning,launch day checklist,go to market checklist',
-  metadataBase: new URL('https://launch.startvest.ai'),
+  metadataBase: new URL('https://launch.tools.startvest.ai'),
+  alternates: {
+    types: {
+      'text/markdown': '/.md',
+    },
+  },
+  other: {
+    'ai-content-declaration': 'This page is available in markdown format at /.md',
+  },
   openGraph: {
     title: 'Product Launch Checklist - Free Launch Planning Tool',
     description: 'Comprehensive launch checklists for SaaS, mobile apps, open source projects, and marketplaces.',
-    url: 'https://launch.startvest.ai',
+    url: 'https://launch.tools.startvest.ai',
     type: 'website',
     siteName: 'StartVest.ai Tools',
     images: [

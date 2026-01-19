@@ -88,7 +88,7 @@ function generateMarkdown(notes: ReleaseNotes): string {
   });
 
   md += '---\n';
-  md += '*Generated with [Release Notes Generator](https://release-notes.startvest.ai) by Startvest*\n';
+  md += '*Generated with [Release Notes Generator](https://releasenotes.tools.startvest.ai) by Startvest*\n';
 
   return md;
 }
@@ -147,7 +147,7 @@ function generateHTML(notes: ReleaseNotes): string {
     }
   });
 
-  html += `  <p class="footer">Generated with <a href="https://release-notes.startvest.ai">Release Notes Generator</a> by Startvest</p>
+  html += `  <p class="footer">Generated with <a href="https://releasenotes.tools.startvest.ai">Release Notes Generator</a> by Startvest</p>
 </body>
 </html>`;
 

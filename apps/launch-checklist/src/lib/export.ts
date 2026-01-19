@@ -40,7 +40,7 @@ export function exportToMarkdown(template: ChecklistTemplate, state: ChecklistSt
   });
 
   md += `---\n`;
-  md += `*Generated with [Product Launch Checklist](https://launch.startvest.ai) by Startvest*\n`;
+  md += `*Generated with [Product Launch Checklist](https://launch.tools.startvest.ai) by Startvest*\n`;
 
   return md;
 }

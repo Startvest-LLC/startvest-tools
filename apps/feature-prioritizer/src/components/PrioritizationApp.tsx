@@ -634,6 +634,9 @@ export default function PrioritizationApp() {
             <a href="https://startvest.ai" className="hover:text-white transition-colors">
               Startvest
             </a>
+            <a href="/llms.txt" className="text-slate-600 hover:text-slate-400">
+              AI-readable
+            </a>
           </div>
         </div>
       </footer>

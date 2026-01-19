@@ -1190,6 +1190,8 @@ export default function PRDGeneratorApp() {
             <span>Generate release notes</span>
             <span className="text-slate-600">&rarr;</span>
             <a href="https://release-notes.tools.startvest.ai" className="text-blue-400 hover:text-blue-300">Release Notes</a>
+            <span className="text-slate-600">|</span>
+            <a href="/llms.txt" className="text-slate-600 hover:text-slate-400">AI-readable</a>
           </div>
         </div>
       </footer>

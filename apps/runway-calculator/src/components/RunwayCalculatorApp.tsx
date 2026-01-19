@@ -243,7 +243,7 @@ export default function RunwayCalculatorApp() {
       md += `| ${d.label} | ${formatFullCurrency(d.cash)} | ${formatFullCurrency(d.burn)} | ${formatFullCurrency(d.revenue)} | ${formatFullCurrency(d.netBurn)} |\n`;
     });
 
-    md += `\n---\n*Generated with [Startup Runway Calculator](https://runway.startvest.ai)*\n`;
+    md += `\n---\n*Generated with [Startup Runway Calculator](https://runway.tools.startvest.ai)*\n`;
 
     const blob = new Blob([md], { type: 'text/markdown' });
     const url = URL.createObjectURL(blob);
@@ -675,13 +675,18 @@ export default function RunwayCalculatorApp() {
         <EmailCapture className="mt-6" />
 
         {/* Footer */}
-        <div className="mt-8 text-center text-gray-500 text-sm">
+        <div className="mt-8 text-center text-gray-500 text-sm space-y-2">
           <p>
             Built by{' '}
             <a href="https://startvest.ai" className="text-blue-400 hover:underline">
               StartVest.ai
             </a>{' '}
             &mdash; Free tools for startup founders
+          </p>
+          <p>
+            <a href="/llms.txt" className="text-gray-600 hover:text-gray-400">
+              AI-readable version
+            </a>
           </p>
         </div>
       </div>

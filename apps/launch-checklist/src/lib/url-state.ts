@@ -62,7 +62,7 @@ export function deserializeState(encoded: string): Partial<ChecklistState> | nul
 export function generateShareUrl(state: ChecklistState): string {
   const baseUrl = typeof window !== 'undefined'
     ? `${window.location.origin}${window.location.pathname}`
-    : 'https://launch.startvest.ai';
+    : 'https://launch.tools.startvest.ai';
 
   const serialized = serializeState(state);
   return `${baseUrl}?s=${serialized}`;

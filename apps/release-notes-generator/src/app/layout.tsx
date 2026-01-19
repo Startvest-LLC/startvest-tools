@@ -10,11 +10,21 @@ export const metadata: Metadata = {
   title: 'Release Notes Generator - Create Beautiful Changelogs',
   description: 'Generate professional release notes from your commits, PRs, and manual entries. Export to Markdown, HTML, or copy to clipboard.',
   keywords: 'release notes,changelog,git commits,pull requests,version history,software releases',
+  metadataBase: new URL('https://releasenotes.tools.startvest.ai'),
+  alternates: {
+    types: {
+      'text/markdown': '/.md',
+    },
+  },
+  other: {
+    'ai-content-declaration': 'This page is available in markdown format at /.md',
+  },
   openGraph: {
     title: 'Release Notes Generator - Create Beautiful Changelogs',
     description: 'Generate professional release notes instantly. Categorize changes, format beautifully, export anywhere.',
-    url: 'https://release-notes.startvest.ai',
+    url: 'https://releasenotes.tools.startvest.ai',
     type: 'website',
+    siteName: 'StartVest.ai Tools',
   },
   twitter: {
     card: 'summary',

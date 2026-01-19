@@ -10,12 +10,20 @@ export const metadata: Metadata = {
   title: 'Startup Runway Calculator - Calculate Your Cash Runway',
   description: 'Free startup runway calculator. Calculate how long your funding will last based on burn rate, revenue, and growth projections. Visualize your runway and plan your next fundraise.',
   keywords: 'startup runway calculator,burn rate calculator,cash runway,startup funding,runway planning,fundraising timeline',
-  metadataBase: new URL('https://runway.startvest.ai'),
+  metadataBase: new URL('https://runway.tools.startvest.ai'),
+  alternates: {
+    types: {
+      'text/markdown': '/.md',
+    },
+  },
+  other: {
+    'ai-content-declaration': 'This page is available in markdown format at /.md',
+  },
   openGraph: {
     title: 'Startup Runway Calculator - Calculate Your Cash Runway',
     description: 'Free startup runway calculator. Calculate how long your funding will last based on burn rate, revenue, and growth projections.',
     type: 'website',
-    url: 'https://runway.startvest.ai',
+    url: 'https://runway.tools.startvest.ai',
     siteName: 'Startup Runway Calculator',
     images: [
       {
