@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const BASE_URL = 'https://prioritize.tools.startvest.ai';
+const BASE_URL = 'https://prioritize.startvest.ai';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
