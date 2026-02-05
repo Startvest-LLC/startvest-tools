@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://releasenotes.tools.startvest.ai/sitemap.xml',
+    sitemap: 'https://releasenotes.startvest.ai/sitemap.xml',
   };
 }
